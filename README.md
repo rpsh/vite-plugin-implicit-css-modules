@@ -60,7 +60,7 @@ With `vite-plugin-implicit-css-modules` you can write classes as is:
 and get result:
 
 ```js
-<p :class="red_1VyoJ-uZ">
+<p class="red_1VyoJ-uZ">
   Am I red?
 </p>
 <p class="red_1VyoJ-uZ bold_2dfrX-sE">
