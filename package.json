@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn build && yarn release",
     "release": "standard-version",
     "major": "standard-version --release-as major",
     "minor": "standard-version --release-as minor",

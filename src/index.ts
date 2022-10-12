@@ -26,7 +26,6 @@ export default function vitePluginImplicitCssModules(): Plugin {
           src = src.replace(templateReg, resolved);
         }
       })
-      console.log('src', src)
       return src;
     },
   };
