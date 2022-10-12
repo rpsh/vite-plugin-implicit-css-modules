@@ -1,0 +1,42 @@
+{
+  "name": "vite-plugin-implicit-css-modules",
+  "version": "0.0.1",
+  "description": "Implicitly replace class names using Vue css modules",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpsh/vite-plugin-implicit-css-modules.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "Vue",
+    "Vite",
+    "Vite-plugin",
+    "css",
+    "css-modules",
+    "cssModules"
+  ],
+  "author": "rpsh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rpsh/vite-plugin-implicit-css-modules/issues"
+  },
+  "homepage": "https://github.com/rpsh/vite-plugin-implicit-css-modules#readme",
+  "devDependencies": {
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.7"
+  }
+}
