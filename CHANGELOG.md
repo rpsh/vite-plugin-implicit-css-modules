@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/rpsh/vite-plugin-implicit-css-modules/compare/v0.0.3...v0.0.4) (2023-03-17)
+
+
+### Features
+
+* 完善 readme 文档 ([9681896](https://github.com/rpsh/vite-plugin-implicit-css-modules/commit/9681896b42530eaecc18d351e5b79703e7e6435e))
+* 完善 readme 文档 ([adea612](https://github.com/rpsh/vite-plugin-implicit-css-modules/commit/adea61212a41c5c0c52c860c3c0e514d73dcd69d))
+
 ### [0.0.3](https://github.com/rpsh/vite-plugin-implicit-css-modules/compare/v0.0.2...v0.0.3) (2022-10-12)
 
 
