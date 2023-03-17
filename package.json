@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-implicit-css-modules",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Implicitly replace class names using Vue css modules",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
