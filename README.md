@@ -1,4 +1,5 @@
 # vite-plugin-implicit-css-modules
+
 > Implicitly replace class names using Vue css modules
 
 ## Installation
@@ -11,6 +12,7 @@ yarn add -D vite-plugin-implicit-css-modules # yarn
 ## Usage
 
 ### plugin config
+
 ```js
 // vite.config.ts
 import vitePluginImplicitCssModules from 'vite-plugin-implicit-css-modules';
@@ -22,7 +24,7 @@ export default defineConfig({
       // https://vitejs.dev/guide/api-plugin.html#plugin-ordering
       enforce: 'pre',
     },
-    vue()
+    vue(),
   ],
   css: {
     modules: {
@@ -32,11 +34,13 @@ export default defineConfig({
       localsConvention: 'camelCase',
     },
   },
-})
+});
 ```
 
 ### Component
+
 With `vite-plugin-implicit-css-modules` you can write classes as is:
+
 ```jsx
 <template>
   <p :class="{ 'red': true }">
@@ -54,19 +58,17 @@ With `vite-plugin-implicit-css-modules` you can write classes as is:
   .bold {
     font-weight: bold;
   }
-</style> 
+</style>
 
 ```
+
 and get result:
 
-```js
-<p class="red_1VyoJ-uZ">
-  Am I red?
-</p>
-<p class="red_1VyoJ-uZ bold_2dfrX-sE">
-  Red and bold
-</p>
+```html
+<p class="red_1VyoJ-uZ">Am I red?</p>
+<p class="red_1VyoJ-uZ bold_2dfrX-sE">Red and bold</p>
 ```
+
 ```css
 .red_1VyoJ-uZ {
   color: red;
@@ -76,14 +78,14 @@ and get result:
 }
 ```
 
-
 ## Example
+
 More [example](./example/)
 
-
 ## Thanks
+
 Inspired by [vue-implicit-css-modules](https://github.com/AjiTae/vue-implicit-css-modules)
 
-
 ## License
+
 [MIT](./LICENSE)
